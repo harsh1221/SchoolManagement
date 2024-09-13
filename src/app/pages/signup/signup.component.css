@@ -1,0 +1,42 @@
+html,body{
+    background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+    }
+
+.form-row {
+    /*  display: flex; */
+     justify-content: space-between;
+ }
+
+ .form-group {
+     flex: 0 0 48%;
+ }
+
+ .card{
+     max-width: 600px;
+     margin: auto;
+     top:60px;
+ }
+.card-header{
+    background-color: lightgrey;
+}
+
+ html, body {
+  
+     background-repeat: no-repeat;
+     height: 100%;
+     font-family: 'Numans', sans-serif;
+     color: #212529;
+     font-size:1rem;
+ }
+
+ .lblSignUp{
+    font-size:21px;
+    color: black;
+ }
+ .btn-Back{
+    background-color: #FFC312;
+ }

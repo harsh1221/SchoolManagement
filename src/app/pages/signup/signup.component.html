@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    
+</head>
+<body style="background-color:#f7f8fa">
+
+    <div class="container mt-0">
+        <div class="justify-content-center h-100">
+        <div class="card">
+                <div class="card-header">
+                    <h3 class="lblSignUp">Sign Up</h3>
+                </div>
+            <div class="card-body">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="username">User Name</label>
+                        <input type="text" class="form-control" id="txtUserName" placeholder="Username" autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="txtPassword" placeholder="Password"  autocomplete="new-password">
+                    </div>
+                </div>
+                <div class="form-row">
+                   
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" class="form-control" id="txtFirstName" placeholder="First Name"  autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" class="form-control" id="txtLastName" placeholder="Last Name"  autocomplete="off">
+                    </div>
+                   
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phoneNumber">Phone Number</label>
+                        <input type="text" class="form-control" id="txtPhoneNumber" placeholder="Phone Number"  autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="txtEmail" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="gender">Gender</label>
+                        <div>
+                            <label>
+                                <input type="radio" checked="" value="Male" name="Gender" id="chkMale"> <i></i>Male
+                                &nbsp;&nbsp;
+                                <input type="radio" value="Female" name="Gender" id="chkFemale"> <i></i>Female
+                                &nbsp;&nbsp;
+                                <input type="radio" value="Other" name="Gender" id="chkOther"> <i></i>Other
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="dateOfBirth">Date of Birth</label>
+                        <div class="input-group date">
+                            <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input type="text" id="txtDob" class="form-control" autocomplete="off" maxlength="10" placeholder="MM/DD/YYYY">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="location">Location</label>
+                        <input type="text" class="form-control" id="txtLocation" placeholder="Location" autocomplete="off">
+                    </div>
+                    
+                </div>
+               
+                <button type="submit" class="btn btn-sm btn-Back float-left m-t-n-xs">Back</button>
+                <button type="submit" class="btn btn-sm btn-Back float-right m-t-n-xs">Sign Up</button>
+
+            </div>
+        </div>
+    </div>
+    </div>
+   
+</body>
+</html>
